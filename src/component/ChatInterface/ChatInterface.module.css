@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 101vh; /* Full viewport height */
+    margin: 0; /* Remove default body margin */
+    position: relative; /* Allows positioning of child elements */
+    width: auto;
+    font-family: 'Press Start 2P', system-ui;
+}
+
+.side_panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Full viewport height */
+    position: absolute; /* Allows positioning of child elements */
+    top: 0;
+    left: 0;
+    background: rgba(61, 115, 122, 1);
+    width: 40vh;
+    height: 100vh;
+    border-top-right-radius: 3cap;
+    border-bottom-right-radius: 3cap;
+    padding-top:10px;
+    padding-bottom:20px;
+  }
+
+  
+  .q {
+    height: 100%;
+}
+
+.q1,
+.q2 {
+    margin-top: 10%;
+    background-color: #fffc9a;
+    width: 35vh;
+    height: 7vh;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    overflow: hidden;
+}
+
+  .q1 p, .q2 p{
+    text-align: right;
+    color: black;
+    clip-path: inset(0 20px 0 0);
+    font-size: 16px;
+    padding-top: 7%;
+
+  }
+  
+  .user{
+    padding:0 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+  .user p {
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: large;
+  }
+
+  .user img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .logoImageC{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    width: 10%;
+    height: auto;
+  }
+
+  .moon{
+    position:absolute;
+    top: 0%;
+    left: 88%;
+  }
+
+ .welcome{
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+    transform: translate(-50%, -50%);
+    color: rgb(255, 255, 255);
+ } 
+
+ .welcome h1{
+  text-shadow: 1px 1px 2px #ff6f00, -1px -1px 2px #fadac1,
+  1px -1px 2px #fadac1, -1px 1px 2px #fadac1;font-size: 50px;
+ }
+
+ .welcome h2{
+  color: #F07C40;
+  text-shadow: 1px 1px 2px #ff6f00, -1px -1px 2px #fadac1,
+  1px -1px 2px #fadac1, -1px 1px 2px #fadac1;font-size: 50px;
+ }
+
+ .welcome p{
+  font-size: 20px;
+ }
+
